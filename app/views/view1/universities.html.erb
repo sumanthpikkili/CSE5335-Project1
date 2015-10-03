@@ -44,12 +44,12 @@ $("#univs").hide();
 		 
 	 
                 var locate="";
-				for (var i = 0; i < 10; i++)
+				for (var i = 0; i < 15; i++)
 	             {     
 				      console.log(data[i].univname);
                       var row = $("<tr/>");
 				      $("#univs").append(row);
-					  row.append($("<td><img src=" + data[i].logo + "/></td>"));
+					  row.append($("<td><img src=" + data[i].logo + "></td>"));
 					  row.append($("<td>" + data[i].univname + "</td>"));
 					  row.append($("<td>" + data[i].desc + "</td>"));
 					  row.append($("<td>" + data[i].ranking + "</td>"));
@@ -74,9 +74,6 @@ $("#univs").hide();
 
 <body>
 <h2> UNIVERSITIES LIST </h2>
-<img src = "assets/images/ASU.jpg">
-<img src = "assets/images/stanford.jpg">
-<img src = "app/assets/images/stanford.jpg">
 <button> CLICK ME  </button>
 <br/>
 <br/>
@@ -98,3 +95,4 @@ $("#univs").hide();
 </html>
 
 			 
+
