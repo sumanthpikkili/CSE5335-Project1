@@ -1,6 +1,6 @@
-# CSE5335-Project1
-# Author Name: Sumanth Pikkili
-# UTA-ID: 1001100941
+### CSE5335-Project1
+### Author Name: Sumanth Pikkili
+### UTA-ID: 1001100941
 
       - Website on Heroku Server: https://cse5335-sxp0941.herokuapp.com/
       - Server-side Web Application Framework: Ruby on Rails
