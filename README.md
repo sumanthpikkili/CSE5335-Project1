@@ -26,7 +26,15 @@
 * There were no additional installed components. The server-side and client-side frameworks that I chose provided me with sufficient components for my project to run smoothly.
 
 
-### Ubuntu Commands to deploy on Heroku Server and run
+### Ubuntu Commands to deploy on Heroku Server and run:
 
-* Create local repository of project
-* git clone https://github.com/sumanthpikkili/CSE5335-Project1.git
+* Create Github Project 'CSE5335-project1' online at https://github.com
+* Create a local Github repository: git clone https://github.com/sumanthpikkili/CSE5335-Project1.git
+* Put all the project files in the folder
+* Add files to the Github repository: git add .
+* Commit all the changes : git commit -m "All files added"
+* Push all the files to Github: git push
+* Install Heroku Tool Belt and login: heroku login
+* create a heroku project : heroku create cse5335-1001100941
+* Deploy the app to heroku : git push heroku master
+* Opening the website: heroku open
