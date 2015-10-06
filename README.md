@@ -38,3 +38,5 @@
 * create a heroku project : heroku create cse5335-1001100941
 * Deploy the app to heroku : git push heroku master
 * Opening the website: heroku open
+* GTA as collaborator: heroku sharing:add samvaran.rallabandi@mavs.uta.edu 
+* Professor as collaborator: heroku sharing:add emmons@uta.edu
