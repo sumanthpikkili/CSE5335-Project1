@@ -3,6 +3,7 @@
 ### UTA-ID: 1001100941
 
       - Website on Heroku Server: https://cse5335-sxp0941.herokuapp.com/
+      - When the "Find On Map" button is clicked the university location appears on google map at the bottom of the          page
       - Server-side Web Application Framework: Ruby on Rails
       - Client-side Framework: JQuery
       - JSON Objects: List of Universities, ranking, description and their location co-ordinates
